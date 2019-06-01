@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#100e17;
+    font-family:sans-serif;
+    font-size:2em;
+    color:#fff;
+}
+header{
+    display:flex;
+    border-bottom:2px solid #22c137;
+}
+.brand{
+    flex:3;
+}
+nav{
+    flex:9;
+}
+ul{
+    display:flex;
+}
+li{
+    list-style:none;
+}
+a{
+    flex:1;
+    text-decoration:none;
+    color:yellow;
+}
